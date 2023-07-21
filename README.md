@@ -30,6 +30,4 @@ The script will create the `faulty_dir` directory if it doesn't exist.
 
 Run the script using a Python interpreter. The script will print a message for each faulty image it finds, and it will copy the faulty image and its XML file to the `faulty_dir` directory. It will also create a new image in the `faulty_dir` directory with the bounding box drawn on the faulty image.
 
-## License
 
-This project is licensed under the terms of the MIT license.
