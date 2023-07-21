@@ -5,10 +5,10 @@ import shutil
 import numpy as np
 
 # Directories
-img_dir = 'C:\\Users\\MahdiKhalili\\Desktop\\Z\\images'
-xml_dir = 'C:\\Users\\MahdiKhalili\\Desktop\\Z\\xml'
-ref_dir = 'C:\\Users\\MahdiKhalili\\Desktop\\Shape_Builder\\New Round\\Obj10\\2023-05-12 22-21-58'
-faulty_dir = 'C:\\Users\\MahdiKhalili\\Desktop\\datasets\\faulty'
+img_dir = 'img_dir'
+xml_dir = 'xml_dir'
+ref_dir = 'ref_dir'
+faulty_dir = 'faulty_dir'
 
 # Create the faulty directory if it doesn't exist
 os.makedirs(faulty_dir, exist_ok=True)
